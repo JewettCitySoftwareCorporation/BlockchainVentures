@@ -20,132 +20,17 @@
   
 	<link rel="stylesheet" href="css/Splash_styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=800, user-scalable=no">
-
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/demo.css">
-
+    <link href='css/BV_Font.css' rel='stylesheet' type='text/css' />
+	<link href='css/BV_Fonts.css' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/demo-styles.css" />
     <script src="js/modernizr-1.5.min.js"></script>
     
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
 
-    
         <style>
-            /**
-            *  http://codepen.io/raevenk/pen/ojXMzV
- * Cube Styles
- */
-body {
-  background: #F8FFE5;
-}
-
-.perspective {
-  -webkit-perspective: 76em;
-          perspective: 76em;
-  -webkit-perspective-origin: 50% 50px;
-          perspective-origin: 50% 50px;
-  width: 494px;
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  color: #fff;
-  text-align: center;
-}
-
-input {
-  display: none;
-}
-
-.tab {
-  position: absolute;
-  width: 80px;
-  height: 70px;
-  background: pink;
-  right: 0;
-  line-height: 70px;
-  font-weight: 300;
-}
-.tab:nth-child(1) {
-  top: -5px;
-  background: #06D6A0;
-}
-.tab:nth-child(2) {
-  top: 69px;
-  background: #1B9AAA;
-}
-.tab:nth-child(3) {
-  top: 143px;
-  background: #EF476F;
-}
-
-.cube {
-  position: relative;
-  margin: 60px auto 0;
-  width: 300px;
-  height: 200px;
-  -webkit-transform-origin: 0 100px;
-      -ms-transform-origin: 0 100px;
-          transform-origin: 0 100px;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 0.5s ease-in;
-          transition: transform 0.5s ease-in;
-}
-
-.tab-content {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-}
-.tab-content h1 {
-  font-size: 25px;
-  margin: 75px 0 10px;
-  font-weight: 300;
-}
-.tab-content p {
-  font-size: 12px;
-}
-.tab-content:nth-child(2) {
-  -webkit-transform: translateZ(100px);
-          transform: translateZ(100px);
-  background: #1B9AAA;
-}
-.tab-content:nth-child(1) {
-  -webkit-transform: rotateX(-270deg) translateY(-100px);
-          transform: rotateX(-270deg) translateY(-100px);
-  -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
-          transform-origin: top left;
-  background: #06D6A0;
-}
-.tab-content:nth-child(3) {
-  -webkit-transform: rotateX(-90deg) translateY(100px);
-          transform: rotateX(-90deg) translateY(100px);
-  -webkit-transform-origin: bottom center;
-      -ms-transform-origin: bottom center;
-          transform-origin: bottom center;
-  background: #EF476F;
-}
-
-#tab-top:checked ~ .cube {
-  -webkit-transform: rotateX(-90deg);
-          transform: rotateX(-90deg);
-}
-
-#tab-front:checked ~ .cube {
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-}
-
-#tab-bottom:checked ~ .cube {
-  -webkit-transform: rotateX(90deg);
-          transform: rotateX(90deg);
-}
-
-
+     
 /**
  * Footer Styles
  */
@@ -393,41 +278,13 @@ h3:target {
 				contents.innerHTML = '<div class="cover"></div><iframe src="'+ Meny.getQuery().u +'" style="width: 100%; height: 100%; border: 0; position: absolute;"></iframe>';
 			}
 		</script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='js/jquery.min.js'></script>
         <script src="js/index.js"></script>
-		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-
-        <script src="js/stickUp.js"></script>
-    
-     <script type="text/javascript">
-              //initiating jQuery  
-              jQuery(function($) {
-                $(document).ready( function() {
-                  //enabling stickUp on the '.navbar-wrapper' class
-                  $('.navbar-wrapper').stickUp({
-                                parts: {
-                                  0:'home',
-                                  1:'features',
-                                  2: 'news',
-                                  3: 'installation',
-                                  4: 'one-pager',
-                                  5: 'extras',
-                                  6: 'wordpress',
-                                  7: 'contact'
-                                },
-                                itemClass: 'menuItem',
-                                itemHover: 'active'
-                              });
-                });
-              });
-            
-            </script>
-        
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+		
+        <script type="text/javascript" src="js/main.js"></script>
 
         <!--====================================end demo wrapper================================================-->
         <script src="js/jquery-1.8.2.min.js"></script>
-        <script src="js/animatescripts.jsjs"></script>
+        <script src="js/animatescripts.js"></script>
 </body>
 </html>
